@@ -25,19 +25,19 @@ const arr2 = new Array(6,7,8,9,10);
 
 
 // Spread operator : again learn it is not working correctly
-// const new_arr = [...arr1 , ...arr0];
-// console.log(new_arr);
-const res = arr0.flat(Infinity);
-console.log(res);
-console.log(Array.isArray("pranali"));
-console.log(Array.from("pranali"));
-console.log(Array.from({name: "pranali"}))
+const new_arr = {...arr1 , ...arr0};
+console.log(new_arr);
+// const res = arr0.flat(Infinity);
+// console.log(res);
+// console.log(Array.isArray("pranali"));
+// console.log(Array.from("pranali"));
+// console.log(Array.from({name: "pranali"}))
 
 
-let s1 = 100 ;
-let s2 = 200;
-let s3 = 300;
-console.log("new array", Array.of(s1,s2,s3));
+// let s1 = 100 ;
+// let s2 = 200;
+// let s3 = 300;
+// console.log("new array", Array.of(s1,s2,s3));
 
 
 
