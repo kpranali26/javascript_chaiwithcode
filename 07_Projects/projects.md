@@ -1,5 +1,6 @@
-# Projects realted to javascript
-
+# Projects related to javascript
+original code link :
+ [click here](https://stackblitz.com/edit/dom-project-chaiaurcode-zrlq8wdx?file=1-colorChanger%2Fchaiaurcode.js,1-colorChanger%2Findex.html,2-BMICalculator%2Fchaiaurcode.js)
 ## project 1 - solution code
 
 ``` javascript 
@@ -32,3 +33,5 @@ buttons.forEach(function (button) {
     }
   });
 });
+
+```
